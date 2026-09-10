@@ -1,0 +1,115 @@
+SQL(structured Query Language)
+DAY 1
+
+DATA: it is used to retrieve a data or communicate data
+data is a raw fact which describes attributes of a entity attribute(properties) of the entity(object).
+
+
+Database is a place, medium or a container which is used to store the data in the form of systematic and organized manner
+In database we can perform several operations
+1.create or insert
+2.update or modify
+3.delete or drop
+4.read or retrieve
+this operations are referred cred operations
+
+DBMS:
+DBMS is a software which is used to maintain and manages the database
+it has 2 important features
+1.security
+2.authorization
+
+In DBMS we can store data in the form of files ,we are using query language to communicate with DBMS
+ Types of DBMS:
+ 1.HTPMS
+ 2.Network database management system
+ 3.object oriented database system
+ 4.relational database management system
+
+
+Relational model:
+Relational model was designed by the data scientist DFcord
+Any DBMS which supports relational models then it becomes RDBMS
+In Relational models we can store the data's in the form of rows and columns
+
+RDBMS is a kind of software which is used to maintain and manage the database
+In RDBMS we can store the data's in the form tables
+we are using structured query language to communicate with RDBMS
+A vertical position in table is 'columns' we can also referred as attributes or fields
+A horizontal position in table is 'rows' we can also referred as records or tuples
+Cell is a intersection b/w both rows and columns
+Cell is a smallest unit or a block in a table which is used to store the data's.
+
+Rules of DF value:
+1. Data entering into a cell must be a single value if it is multi value will face data loss
+2. In RDBMS we can store everything in the form of tables including metadata (details about the data is known as metadata) and this metadata are stored in meta tables and it is auto generated
+3. In RDBMS we can store the data in the multiple tables, if it is needed make a connection between using key attributes
+4. In RDBMS we can validate the data by 2 steps
+ 1.By assigning datatypes to column(mandatory)
+ 2.By assigning constraints to column(optional)
+
+Difference b/w primary key and foreign key:
+            primary key                                                           foreign key
+it is used find unique records from table                            it is used to connection b/w the tables
+only one primary key in the table                                    N number of foreign key
+combination of unique and not null combination                        It is not combination of unique and not null combination
+
+
+DAY 2
+
+Constraint 
+It is a rule given to a column to validate the data.
+Types of Constraints
+1.Unique
+2.Not Null
+3.Check
+4.Primary Key
+5.Foreign Key
+
+UNIQUE
+It is a constraint which is assigned to a column which should not accept duplicate or repeated values.
+
+NOT NULL
+It is a constarint which is assigned to a column which should not accept Null.
+
+CHECK
+It is constarint that provides extra validation with a condition
+If the condition is satisfied then the value is accepted else rejected.
+Example CHECK(age>18)
+
+PRIMARY KEY
+It is a constraint which is used to identify a record uniquely from the table.
+
+CHARACTERISTICS OF PRIMARY KEY
+ 1.We can have only one PK in a table.
+ 2.PK cannot accept Null.
+ 3.PK cannot accept Duplicate or Repeated values.
+ 4.PK is always a combination of unique & Not Null Constarints.
+ 5.It is not mandatory but highly recommended.
+
+FOREIGN KEY 
+It is constraint which is used to establish a connection between the tables.
+
+characteristics:
+we can have multiple FK in the table.
+FK can accept null.
+FK can accept duplicate or repeated values.
+FK is not a combination of unique and not null constraint.
+FK is present in child table but actually belongs to parent table.
+FK is also known as referential integrity constraint.
+
+overview of sql statements
+1.data definition language
+2.data manipulation language
+3.transcation control language
+4.data control language
+5.data query language
+
+1.DQL
+DQL is used to retrieve the data from the database
+  It has 4 statements:
+  1.SELECT
+  2.PROJECTION
+  3.SELECTION
+  4.JOIN
+

@@ -1,0 +1,9 @@
+n=int(input("Enter\n"))
+nums=[0,1]
+nums1=0
+for i in nums:
+    nums1=nums[-1]+nums[-2]
+    nums.append(nums1)
+    if len(nums)==n:
+        break
+print(nums)

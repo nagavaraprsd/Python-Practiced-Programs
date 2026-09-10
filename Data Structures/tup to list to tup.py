@@ -1,0 +1,6 @@
+tup=(1,3,5,4,8,6)
+num1=list(tup)
+num1.append(2)
+num1.sort()
+num2=tuple(num1)
+print(num2)

@@ -1,0 +1,5 @@
+n=int(input("Enter a maximum range\n"))
+for i in range(0,n+1):
+    if i%2==0:
+        print(f"{i}")
+print(f"Thses are the even numbers between 0 and {n}")

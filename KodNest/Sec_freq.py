@@ -8,5 +8,3 @@ for i in nums:
 freqs=list(dict1.values())
 freq=sorted(freqs,reverse=True)
 print(f"Second Largest Frequency : {freq[1]} ")
-
-
